@@ -1,0 +1,11 @@
+package com.i2b.respositorio;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+
+import com.i2b.entidad.Book;
+
+public interface BookRepository extends JpaRepository<Book, String>, JpaSpecificationExecutor<Book> {
+
+	
+}
